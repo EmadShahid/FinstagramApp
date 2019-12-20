@@ -29,3 +29,7 @@ require APP_ROOT.join('config', 'database')
 
 # Load the routes / actions
 require APP_ROOT.join('app', 'actions')
+
+get '/' do
+  "Hello World"
+end
